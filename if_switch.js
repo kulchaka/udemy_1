@@ -1,4 +1,4 @@
-let num = 49;
+let num = 50;
 
 if (num > 50) {
     console.log("Too much")
@@ -7,3 +7,5 @@ if (num > 50) {
 } else {
     console.log("All right!!!")
 }
+
+(num == 50) ? console.log("Good!😎👍🏻"): console.log("Not good🤔");
