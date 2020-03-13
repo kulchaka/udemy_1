@@ -9,3 +9,15 @@ if (num > 50) {
 }
 
 (num == 50) ? console.log("Good!😎👍🏻"): console.log("Not good🤔");
+
+switch (num) {
+    case num < 50:
+        console.log("Not enough");
+        break;
+    case 50:
+        console.log("Good!👍🏻");
+        break;
+    case num > 50:
+        console.log("Too much");
+        break;
+}
